@@ -1,0 +1,82 @@
+2023-08-02T17:42:33: mosquitto version 2.0.15 terminating
+2023-08-02T17:42:39: mosquitto version 2.0.15 starting
+2023-08-02T17:42:39: Config loaded from /opt/homebrew/etc/mosquitto/mosquitto.conf.
+2023-08-02T17:42:39: Starting in local only mode. Connections will only be possible from clients running on this machine.
+2023-08-02T17:42:39: Create a configuration file which defines a listener to allow remote access.
+2023-08-02T17:42:39: For more details see https://mosquitto.org/documentation/authentication-methods/
+2023-08-02T17:42:39: Opening ipv4 listen socket on port 1883.
+2023-08-02T17:42:39: Opening ipv6 listen socket on port 1883.
+2023-08-02T17:42:39: mosquitto version 2.0.15 running
+2023-08-02T17:42:45: New connection from ::1:63109 on port 1883.
+2023-08-02T17:42:45: New connection from ::1:63108 on port 1883.
+2023-08-02T17:42:45: New client connected from ::1:63109 as 00001 (p2, c1, k60).
+2023-08-02T17:42:45: No will message specified.
+2023-08-02T17:42:45: Sending CONNACK to 00001 (0, 0)
+2023-08-02T17:42:45: New client connected from ::1:63108 as 00002 (p2, c1, k60).
+2023-08-02T17:42:45: No will message specified.
+2023-08-02T17:42:45: Sending CONNACK to 00002 (0, 0)
+2023-08-02T17:42:45: Received SUBSCRIBE from 00001
+2023-08-02T17:42:45: 	A (QoS 0)
+2023-08-02T17:42:45: 00001 0 A
+2023-08-02T17:42:45: Sending SUBACK to 00001
+2023-08-02T17:42:45: Received SUBSCRIBE from 00002
+2023-08-02T17:42:45: 	A (QoS 0)
+2023-08-02T17:42:45: 00002 0 A
+2023-08-02T17:42:45: Sending SUBACK to 00002
+2023-08-02T17:42:53: New connection from ::1:63118 on port 1883.
+2023-08-02T17:42:53: New client connected from ::1:63118 as auto-37258FC0-2C2E-E528-9BED-55171E323B73 (p2, c1, k60).
+2023-08-02T17:42:53: No will message specified.
+2023-08-02T17:42:53: Sending CONNACK to auto-37258FC0-2C2E-E528-9BED-55171E323B73 (0, 0)
+2023-08-02T17:42:53: Received PUBLISH from auto-37258FC0-2C2E-E528-9BED-55171E323B73 (d0, q0, r0, m0, 'A', ... (2 bytes))
+2023-08-02T17:42:53: Sending PUBLISH to 00001 (d0, q0, r0, m0, 'A', ... (2 bytes))
+2023-08-02T17:42:53: Sending PUBLISH to 00002 (d0, q0, r0, m0, 'A', ... (2 bytes))
+2023-08-02T17:42:53: Received DISCONNECT from auto-37258FC0-2C2E-E528-9BED-55171E323B73
+2023-08-02T17:42:53: Client auto-37258FC0-2C2E-E528-9BED-55171E323B73 disconnected.
+2023-08-02T17:43:45: Received PINGREQ from 00002
+2023-08-02T17:43:45: Sending PINGRESP to 00002
+2023-08-02T17:43:45: Received PINGREQ from 00001
+2023-08-02T17:43:45: Sending PINGRESP to 00001
+2023-08-02T17:44:45: Received PINGREQ from 00001
+2023-08-02T17:44:45: Sending PINGRESP to 00001
+2023-08-02T17:44:45: Received PINGREQ from 00002
+2023-08-02T17:44:45: Sending PINGRESP to 00002
+2023-08-02T17:45:45: Received PINGREQ from 00002
+2023-08-02T17:45:45: Sending PINGRESP to 00002
+2023-08-02T17:45:45: Received PINGREQ from 00001
+2023-08-02T17:45:45: Sending PINGRESP to 00001
+2023-08-02T17:46:45: Received PINGREQ from 00002
+2023-08-02T17:46:45: Sending PINGRESP to 00002
+2023-08-02T17:46:45: Received PINGREQ from 00001
+2023-08-02T17:46:45: Sending PINGRESP to 00001
+2023-08-02T17:47:45: Received PINGREQ from 00001
+2023-08-02T17:47:45: Sending PINGRESP to 00001
+2023-08-02T17:47:45: Received PINGREQ from 00002
+2023-08-02T17:47:45: Sending PINGRESP to 00002
+2023-08-02T17:48:45: Received PINGREQ from 00002
+2023-08-02T17:48:45: Sending PINGRESP to 00002
+2023-08-02T17:48:45: Received PINGREQ from 00001
+2023-08-02T17:48:45: Sending PINGRESP to 00001
+2023-08-02T17:49:46: Received PINGREQ from 00002
+2023-08-02T17:49:46: Sending PINGRESP to 00002
+2023-08-02T17:49:46: Received PINGREQ from 00001
+2023-08-02T17:49:46: Sending PINGRESP to 00001
+2023-08-02T17:50:45: Received PINGREQ from 00002
+2023-08-02T17:50:45: Sending PINGRESP to 00002
+2023-08-02T17:50:45: Received PINGREQ from 00001
+2023-08-02T17:50:45: Sending PINGRESP to 00001
+2023-08-02T17:51:45: Received PINGREQ from 00002
+2023-08-02T17:51:45: Sending PINGRESP to 00002
+2023-08-02T17:51:45: Received PINGREQ from 00001
+2023-08-02T17:51:45: Sending PINGRESP to 00001
+2023-08-02T17:52:45: Received PINGREQ from 00002
+2023-08-02T17:52:45: Sending PINGRESP to 00002
+2023-08-02T17:52:45: Received PINGREQ from 00001
+2023-08-02T17:52:45: Sending PINGRESP to 00001
+2023-08-02T17:53:45: Received PINGREQ from 00002
+2023-08-02T17:53:45: Sending PINGRESP to 00002
+2023-08-02T17:53:46: Received PINGREQ from 00001
+2023-08-02T17:53:46: Sending PINGRESP to 00001
+2023-08-02T17:54:12: Received DISCONNECT from 00001
+2023-08-02T17:54:12: Client 00001 disconnected.
+2023-08-02T17:54:13: Received DISCONNECT from 00002
+2023-08-02T17:54:13: Client 00002 disconnected.
